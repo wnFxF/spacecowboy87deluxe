@@ -1,0 +1,10 @@
+down1
+down2
+side2
+side1
+downdiag2
+downdiag1
+down2
+down1
+updiag1
+updiag2
