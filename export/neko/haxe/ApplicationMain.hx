@@ -35,7 +35,7 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "63";
+		app.meta["build"] = "1";
 		app.meta["company"] = "HAPPY WORLD STUDIO 98";
 		app.meta["file"] = "FlxProject";
 		app.meta["name"] = "LASER SPACE COWBOY '87 DELUXE";
@@ -53,7 +53,7 @@ class ApplicationMain
 			// display: 0,
 			element: null,
 			frameRate: 25,
-			#if !web fullscreen: true, #end
+			#if !web fullscreen: false, #end
 			height: 480,
 			hidden: #if munit true #else false #end,
 			maximized: false,
