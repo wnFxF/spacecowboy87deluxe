@@ -38,7 +38,7 @@ class ApplicationMain
 		app.meta["build"] = "2";
 		app.meta["company"] = "HAPPY WORLD STUDIO 98";
 		app.meta["file"] = "FlxProject";
-		app.meta["name"] = "LASER SPACE COWBOY '87 DELUXE";
+		app.meta["name"] = "Test";
 		app.meta["packageName"] = "com.example.myapp";
 		app.meta["version"] = "0.0.1";
 
@@ -60,7 +60,7 @@ class ApplicationMain
 			minimized: false,
 			parameters: {},
 			resizable: false,
-			title: "LASER SPACE COWBOY '87 DELUXE",
+			title: "Test",
 			width: 640,
 			x: null,
 			y: null,
@@ -102,7 +102,7 @@ class ApplicationMain
 		app.createWindow(attributes);
 		
 		#elseif air
-		app.window.title = "LASER SPACE COWBOY '87 DELUXE";
+		app.window.title = "Test";
 		#else
 		app.window.context.attributes.background = 16711680;
 		app.window.frameRate = 25;

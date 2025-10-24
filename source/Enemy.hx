@@ -17,10 +17,18 @@ class Enemy extends FlxSprite
 
         switch type {
             // development enemies
-            case "cuboid": loadGraphic("assets/images/enemy.png", true, 32, 64);
-            case "alien": loadGraphic("assets/images/alien.png", true, 32, 64);
-            case "monkey": loadGraphic("assets/images/monkey.png", true, 32, 64);
-            case "pawn": loadGraphic("assets/images/pawn.png", true, 32, 64);
+			case "cuboid":
+				loadGraphic("assets/images/enemy.png", true, 32, 64);
+			case "alien":
+				loadGraphic("assets/images/alien.png", true, 32, 64);
+			case "monkey":
+				loadGraphic("assets/images/monkey.png", true, 32, 64);
+			case "pawn":
+				loadGraphic("assets/images/pawn.png", true, 32, 64);
+			// easter eggs
+			case "sunderland":
+				loadGraphic("assets/images/sunderland.png", true, 32, 64);
+            
             default: loadGraphic("assets/images/missingenemy.png", true, 32, 64);
         }
     }

@@ -8,6 +8,7 @@ export/neko/bin/assets/images/monkey.png
 export/neko/bin/assets/images/mouse.png
 export/neko/bin/assets/images/pawn.png
 export/neko/bin/assets/images/ss.txt
+export/neko/bin/assets/images/sunderland.png
 export/neko/bin/assets/music/music-goes-here.txt
 export/neko/bin/assets/sounds/sounds-go-here.txt
 export/neko/bin/flixel/sounds/beep.ogg
