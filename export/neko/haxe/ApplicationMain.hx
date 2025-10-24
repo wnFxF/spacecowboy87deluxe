@@ -35,7 +35,7 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "1";
+		app.meta["build"] = "2";
 		app.meta["company"] = "HAPPY WORLD STUDIO 98";
 		app.meta["file"] = "FlxProject";
 		app.meta["name"] = "LASER SPACE COWBOY '87 DELUXE";
